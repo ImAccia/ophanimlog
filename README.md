@@ -19,7 +19,7 @@ The module uses colorama to display automatic logs, which are logs created autom
 
 ## Usage
 
-Download file from github:
+Download module from github:
 
         git clone https://github.com/ImAccia/easylog.git
      
