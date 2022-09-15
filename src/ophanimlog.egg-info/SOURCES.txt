@@ -1,0 +1,10 @@
+LICENSE.rst
+README.md
+setup.cfg
+setup.py
+src/ophanimlog/__init__.py
+src/ophanimlog.egg-info/PKG-INFO
+src/ophanimlog.egg-info/SOURCES.txt
+src/ophanimlog.egg-info/dependency_links.txt
+src/ophanimlog.egg-info/requires.txt
+src/ophanimlog.egg-info/top_level.txt
