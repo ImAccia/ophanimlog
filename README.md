@@ -6,14 +6,14 @@ Simple Python module to log your stuff
 
 The module uses colorama to display automatic logs, which are logs created automatically on exceptions and not manually by the user:
 
-Linux:
+- Linux:
    
-    sudo pip3 install colorama
+      sudo pip3 install colorama
     
 
-Windows:
+- Windows:
    
-    pip3 install colorama
+      pip3 install colorama
 
 
 
