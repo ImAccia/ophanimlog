@@ -11,7 +11,7 @@ Linux:
     sudo pip3 install colorama
     
 
-Windoes:
+Windows:
    
     pip3 install colorama
 
