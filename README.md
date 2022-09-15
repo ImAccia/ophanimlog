@@ -1,24 +1,28 @@
-# OphanimLog
+# EasyLog
 Simple Python module to log your stuff
 
 
 ## Install
 
-The module uses colorama to display automatic logs, which are logs created automatically on exceptions and not manually by the user.
-To install the module:
+The module uses colorama to display automatic logs, which are logs created automatically on exceptions and not manually by the user:
 
 - Linux:
    
-      sudo pip3 install ophanimlog
+      sudo pip3 install colorama
     
 
 - Windows:
    
-      pip3 install ophanimlog
+      pip3 install colorama
 
 
 
-## Usage     
+## Usage
+
+Download module from github:
+
+        git clone https://github.com/ImAccia/easylog.git
+     
 
 Import the module in your script and use it
 
@@ -43,47 +47,47 @@ Import the module in your script and use it
 
 - Logging
 
-        import ophanimlog
+        import easylog
         #Save a log
-        ophanimlog.log(text="Sample Log", log_type="DEBUG", len=40)
+        easylog.log(text="Sample Log", log_type="DEBUG", len=40)
 
 
         #Save another log
-        ophanimlog.log(text="Another sample Log", log_type="DEBUG", len=40)
+        easylog.log(text="Another sample Log", log_type="DEBUG", len=40)
 
 
 - Printing Logs
 
         #Print all logs
-        ophanimlog.printLog() #0 does the same
+        easylog.printLog() #0 does the same
      ![Image](<https://i.imgur.com/XEXcRyO.png>)
 
 
         #Print the 2nd log
-        ophanimlog.printLog(2)
+        easylog.printLog(2)
      ![Image](<https://i.imgur.com/D2458Uk.png>)
 
 - Print Logs given Log Type
 
         #Print all logs with type DEBUG
-        ophanimlog.printLog(log_type="AUTO_LOG_ACCESS_ERROR") #0 does the same
+        easylog.printLog(log_type="AUTO_LOG_ACCESS_ERROR") #0 does the same
      ![Image](<https://i.imgur.com/TVa3XOx.png>)
 
 
         #Print the specified log with type DEBUG
-        ophanimlog.printLog(1, log_type="AUTO_LOG_ACCESS_ERROR")
+        easylog.printLog(1, log_type="AUTO_LOG_ACCESS_ERROR")
      ![Image](<https://i.imgur.com/vYXFkq1.png>)
 
 
 - Delete Logs
 
         #Delete the 1st log
-        ophanimlog.delLog(1)
+        easylog.delLog(1)
      ![Image](<https://i.imgur.com/vQLupuG.png>)
 
 
         #Delete all logs
-        ophanimlog.delLog() #0 does the same
+        easylog.delLog() #0 does the same
      ![Image](<https://i.imgur.com/3llv62A.png>)
 
 
@@ -92,10 +96,10 @@ Import the module in your script and use it
 
 To make it so that logs get saved to a different file dynamically on each new day you could use this snippet
 
-      import ophanimlog
+      import easylog
       import time
       from datetime import datetime
 
       stamp = time.time()
       dt_obj = datetime.fromtimestamp(stamp).strftime('%d-%m-%y')
-      ophanimlog.log(path=f"log{str(dt_obj)}.txt")
+      easylog.log(path=f"log{str(dt_obj)}.txt")

@@ -229,3 +229,4 @@ def delLog(number=0, path="logs/log.txt"):
             print(text)
             log(text=text, log_type="AUTO_LOG_DEL_ERROR", len=88, path=path)
             return -1
+

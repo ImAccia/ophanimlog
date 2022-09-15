@@ -1,11 +1,11 @@
 Metadata-Version: 1.0
 Name: ophanimlog
-Version: 1.2.3
+Version: 1.2.4
 Summary: UNKNOWN
-Home-page: https://github.com/ImAccia/easylog
+Home-page: https://github.com/ImAccia/ophanimlog
 Author: Alex Acciarri
 Author-email: accia.ale@gmail.com
-License: GNU V3
+License: GPL V3.0
 Description: UNKNOWN
 Keywords: Log Logging Logger Py Python Easy Simple
 Platform: UNKNOWN
