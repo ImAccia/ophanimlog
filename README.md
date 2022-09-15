@@ -89,3 +89,17 @@ Import the module in your script and use it
         #Delete all logs
         easylog.delLog() #0 does the same
      ![Image](<https://i.imgur.com/3llv62A.png>)
+
+
+
+## TIP
+
+To make it so that logs get saved to a different file dynamically on each new day you could use this snippet
+
+      import easylog
+      import time
+      from datetime import datetime
+
+      stamp = time.time()
+      dt_obj = datetime.fromtimestamp(stamp).strftime('%d-%m-%y')
+      easylog.log(path=f"log{str(dt_obj)}.txt")
