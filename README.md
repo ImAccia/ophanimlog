@@ -1,28 +1,24 @@
-# EasyLog
+# OphanimLog
 Simple Python module to log your stuff
 
 
 ## Install
 
-The module uses colorama to display automatic logs, which are logs created automatically on exceptions and not manually by the user:
+The module uses colorama to display automatic logs, which are logs created automatically on exceptions and not manually by the user.
+To install the module:
 
 - Linux:
    
-      sudo pip3 install colorama
+      sudo pip3 install ophanimlog
     
 
 - Windows:
    
-      pip3 install colorama
+      pip3 install ophanimlog
 
 
 
-## Usage
-
-Download module from github:
-
-        git clone https://github.com/ImAccia/easylog.git
-     
+## Usage     
 
 Import the module in your script and use it
 
