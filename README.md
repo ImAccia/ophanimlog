@@ -4,25 +4,20 @@ Simple Python module to log your stuff
 
 ## Install
 
-The module uses colorama to display automatic logs, which are logs created automatically on exceptions and not manually by the user:
+The module uses colorama to display automatic logs, which are logs created automatically on exceptions and not manually by the user.
 
 - Linux:
    
-      sudo pip3 install colorama
+      sudo pip3 install ophanimlog
     
 
 - Windows:
    
-      pip3 install colorama
+      pip3 install ophanimlog
 
 
 
 ## Usage
-
-Download module from github:
-
-        git clone https://github.com/ImAccia/easylog.git
-     
 
 Import the module in your script and use it
 
@@ -96,10 +91,10 @@ Import the module in your script and use it
 
 To make it so that logs get saved to a different file dynamically on each new day you could use this snippet
 
-      import easylog
+      import ophanimlog as log
       import time
       from datetime import datetime
 
       stamp = time.time()
       dt_obj = datetime.fromtimestamp(stamp).strftime('%d-%m-%y')
-      easylog.log(path=f"log{str(dt_obj)}.txt")
+      log.log(path=f"log{str(dt_obj)}.txt")
