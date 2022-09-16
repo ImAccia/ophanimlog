@@ -42,47 +42,47 @@ Import the module in your script and use it
 
 - Logging
 
-        import easylog
+        import ophanimlog
         #Save a log
-        easylog.log(text="Sample Log", log_type="DEBUG", len=40)
+        ophanimlog.log(text="Sample Log", log_type="DEBUG", len=40)
 
 
         #Save another log
-        easylog.log(text="Another sample Log", log_type="DEBUG", len=40)
+        ophanimlog.log(text="Another sample Log", log_type="DEBUG", len=40)
 
 
 - Printing Logs
 
         #Print all logs
-        easylog.printLog() #0 does the same
+        ophanimlog.printLog() #0 does the same
      ![Image](<https://i.imgur.com/XEXcRyO.png>)
 
 
         #Print the 2nd log
-        easylog.printLog(2)
+        ophanimlog.printLog(2)
      ![Image](<https://i.imgur.com/D2458Uk.png>)
 
 - Print Logs given Log Type
 
         #Print all logs with type DEBUG
-        easylog.printLog(log_type="AUTO_LOG_ACCESS_ERROR") #0 does the same
+        ophanimlog.printLog(log_type="AUTO_LOG_ACCESS_ERROR") #0 does the same
      ![Image](<https://i.imgur.com/TVa3XOx.png>)
 
 
         #Print the specified log with type DEBUG
-        easylog.printLog(1, log_type="AUTO_LOG_ACCESS_ERROR")
+        ophanimlog.printLog(1, log_type="AUTO_LOG_ACCESS_ERROR")
      ![Image](<https://i.imgur.com/vYXFkq1.png>)
 
 
 - Delete Logs
 
         #Delete the 1st log
-        easylog.delLog(1)
+        ophanimlog.delLog(1)
      ![Image](<https://i.imgur.com/vQLupuG.png>)
 
 
         #Delete all logs
-        easylog.delLog() #0 does the same
+        ophanimlog.delLog() #0 does the same
      ![Image](<https://i.imgur.com/3llv62A.png>)
 
 
