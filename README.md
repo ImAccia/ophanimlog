@@ -1,4 +1,4 @@
-# EasyLog
+# OphanimLog
 Simple Python module to log your stuff
 
 
