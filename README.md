@@ -58,9 +58,14 @@ Import the module in your script and use it
      ![Image](<https://i.imgur.com/XEXcRyO.png>)
 
 
+
+
         #Print the 2nd log
         ophanimlog.printLog(2)
      ![Image](<https://i.imgur.com/D2458Uk.png>)
+
+
+
 
 - Print Logs given Log Type
 
@@ -69,9 +74,14 @@ Import the module in your script and use it
      ![Image](<https://i.imgur.com/TVa3XOx.png>)
 
 
+
+
         #Print the specified log with type DEBUG
         ophanimlog.printLog(1, log_type="AUTO_LOG_ACCESS_ERROR")
      ![Image](<https://i.imgur.com/vYXFkq1.png>)
+
+
+
 
 
 - Delete Logs
@@ -81,9 +91,14 @@ Import the module in your script and use it
      ![Image](<https://i.imgur.com/vQLupuG.png>)
 
 
+
+
         #Delete all logs
         ophanimlog.delLog() #0 does the same
      ![Image](<https://i.imgur.com/3llv62A.png>)
+
+
+
 
 
 
